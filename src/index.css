@@ -43,7 +43,7 @@
 
   /*  Colores  */
   --primary-color: var(--primary-color-500);
-  --primary-color-alt: var(--primary-color-600);
+  --primary-color-alt: var(--primary-color-700);
   --title-color: var(--primary-color);
   --text-color: var(--grey-color-600);
   --body-bg-color: var(--grey-color-100);
@@ -132,6 +132,7 @@ body {
   font-size: var(--normal-font-size);
   line-height: var(--body-line-height);
   background-color: var(--body-bg-color);
+  margin: 0px;
 }
 
 a {

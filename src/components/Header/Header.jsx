@@ -15,32 +15,32 @@ export function Header() {
                 </p>
 
                 {/* <!-- Menu de navegacion --> */}
-                <span id="open-menu-button" class="jam jam-menu" ></span>
+                <span id="open-menu-button" className="jam jam-menu" ></span>
                 <nav id="main-menu" class="main-menu" >
                 <span id="close-menu-button" class="jam jam-close" > </span>
                 <ul id="ul-menu" >
                     <li>
-                    <a id="btn-home" >
+                    <a href="http://localhost:3000" id="btn-home" >
                         <span id="img-home" class="jam jam-home"></span>
                         Inicio</a>
                     </li>
                     <li>
-                    <a id="btn-movie" >
+                    <a href="http://localhost:3000" id="btn-movie" >
                         <span id="img-movie" class="jam jam-movie"></span>
                         Películas</a>
                     </li>
                     <li>
-                    <a id="btn-tv" >
+                    <a href="http://localhost:3000" id="btn-tv" >
                         <span id="img-tv"  class="jam jam-camera-alt"></span>
                         Programas de televisión</a>
                     </li>
                     <li> 
-                    <a id="btn-genres" >
+                    <a href="http://localhost:3000" id="btn-genres" >
                         <span id="img-genres"  class="jam jam-folder-open"></span>
                         Generos</a>
                     </li>
                     <li>
-                    <a id="btn-trending" >
+                    <a href="http://localhost:3000" id="btn-trending" >
                         <span id="img-trending" class="jam jam-flashlight-on"></span>
                         Tendencias</a>
                     </li>

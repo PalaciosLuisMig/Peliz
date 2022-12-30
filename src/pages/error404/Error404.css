@@ -1,0 +1,53 @@
+.error404{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.error404-title{
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: var(--h1-font-size);
+}
+
+.error404-img{
+    padding-bottom: 2rem;
+    width: 50%;
+}
+
+/*  Variables de tamaño en tables  */
+@media screen and (min-width: 640px) {
+
+    .error404-img {
+        padding-bottom: 2rem;
+        width: 40%;
+    }
+
+}
+
+/*  Variables de tamaño en desktop  */
+@media screen and (min-width: 1024px) {
+
+    .error404-img {
+        padding-bottom: 2rem;
+        width: 30%;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .error404-img{
+        animation: App-logo-spin infinite 5s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
