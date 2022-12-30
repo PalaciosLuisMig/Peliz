@@ -14,7 +14,6 @@ export const Button = (props) => {
 export const ButtonIcon = (props) => {
 
     let iconJam = 'jam ' + props.jam;
-    console.log("iconJam: " + iconJam);
 
     return(
         <a className='button-icon' href={props.href}>

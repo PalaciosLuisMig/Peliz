@@ -2,6 +2,8 @@
 import transmision from '../../assets/images/transmision.png';
 import './Header.css'
 
+import { ItemMenu } from "../ItemMenu/ItemMenu";
+
 export function Header() {
     return(
         <header className="main-header">
@@ -20,29 +22,19 @@ export function Header() {
                 <span id="close-menu-button" class="jam jam-close" > </span>
                 <ul id="ul-menu" >
                     <li>
-                    <a href="http://localhost:3000" id="btn-home" >
-                        <span id="img-home" class="jam jam-home"></span>
-                        Inicio</a>
+                        <ItemMenu href="http://localhost:3000" jam="jam-home" text="Inicio"></ItemMenu>
                     </li>
                     <li>
-                    <a href="http://localhost:3000" id="btn-movie" >
-                        <span id="img-movie" class="jam jam-movie"></span>
-                        Películas</a>
+                        <ItemMenu href="http://localhost:3000" jam="jam-movie" text="Películas"></ItemMenu>
                     </li>
                     <li>
-                    <a href="http://localhost:3000" id="btn-tv" >
-                        <span id="img-tv"  class="jam jam-camera-alt"></span>
-                        Programas de televisión</a>
+                        <ItemMenu href="http://localhost:3000" jam="jam-camera-alt" text="Programas de televisión"></ItemMenu>
                     </li>
                     <li> 
-                    <a href="http://localhost:3000" id="btn-genres" >
-                        <span id="img-genres"  class="jam jam-folder-open"></span>
-                        Generos</a>
+                        <ItemMenu href="http://localhost:3000" jam="jam-folder-open" text="Géneros"></ItemMenu>
                     </li>
                     <li>
-                    <a href="http://localhost:3000" id="btn-trending" >
-                        <span id="img-trending" class="jam jam-flashlight-on"></span>
-                        Tendencias</a>
+                        <ItemMenu href="http://localhost:3000" jam="jam-flashlight-on" text="Tendencias"></ItemMenu>
                     </li>
                 </ul>
                 </nav>
